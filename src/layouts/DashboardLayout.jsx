@@ -21,7 +21,7 @@ import {
 } from "../utils/Helper";
 import customToastComponent from "../components/Toast/customToast";
 
-const DashboardLayout = () => {
+const DashboardLayout = ({children}) => {
   const settingsTabs = [
     {
       name: "Your profile",
@@ -434,7 +434,8 @@ const DashboardLayout = () => {
               activeLink == "settings" && "!h-[calc(100vh-140px)]"
             }`}
           >
-            <Outlet />
+            {/* <Outlet /> */}
+            { children }
           </main>
         </div>
         {/* {switching ? <LoadingModal /> : null} */}

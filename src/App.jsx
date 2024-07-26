@@ -19,11 +19,7 @@ function App() {
   <BrowserRouter>
     <Routes>
       {/* <Route path='/' Component={Landing} /> */}
-      <Route path='/' Component={DashboardLayout} >
-        <Route path='' Component={Dashboard} />
-        <Route path='home' Component={Dashboard} />
-        <Route path='dashboard' Component={Dashboard} />
-      </Route>
+      <Route path='/' Component={Dashboard}  />
       {/* <Route path='/' Component={AdminLayout} >
         <Route path='admin' Component={Admin} />
         <Route path='admin-transactions' Component={Transaction} />
