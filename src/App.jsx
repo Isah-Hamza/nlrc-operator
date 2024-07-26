@@ -21,7 +21,7 @@ function App() {
     <Routes>
       <Route path='/' Component={Login} />
       {/* <Route path='/' Component={Dashboard}  /> */}
-      <Route path='/' Component={AdminLayout} >
+      <Route path='/' Component={DashboardLayout} >
         <Route path='/dashboard' Component={Dashboard} /> 
       </Route>
     </Routes>
