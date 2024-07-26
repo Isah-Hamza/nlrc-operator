@@ -270,7 +270,7 @@ const table_data_b = [
 
 
   return (
-    <DashboardLayout>  
+    <>  
       <div className="mb-7">
         <p className="text-xl font-semibold text-[#101828]" >Hi <span className="text-primary-light-green font-semibold" >Juma’ah</span> 👋, Wecome to NLRC</p>
         <p className="text-xs mt-1">Lorem ipsum dolor sit amet consectetur. Ultrices turpis amet et id.</p>
@@ -642,7 +642,7 @@ const table_data_b = [
                 </div>
             </div>
         </div>
-    </DashboardLayout>
+    </>
   );
 };
 
