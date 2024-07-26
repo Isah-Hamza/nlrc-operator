@@ -100,7 +100,7 @@ const DashboardLayout = () => {
     REMOVE_FROM_LOCALSTORAGE("partner");
     REMOVE_FROM_LOCALSTORAGE("community");
     REMOVE_FROM_LOCALSTORAGE("partner_staff_id");
-    navigate("/login");
+    navigate("/");
   };
 
   const dashboardItems = [

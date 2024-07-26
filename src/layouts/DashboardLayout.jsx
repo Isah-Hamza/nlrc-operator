@@ -296,7 +296,7 @@ const DashboardLayout = ({children}) => {
   }, [window.location.pathname]);
 
 
-  if (token) {
+  if (true) {
     return (
       <div className="flex h-screen bg-dashboard-bg overflow-x-hidden">
         <aside
@@ -434,8 +434,8 @@ const DashboardLayout = ({children}) => {
               activeLink == "settings" && "!h-[calc(100vh-140px)]"
             }`}
           >
-            {/* <Outlet /> */}
-            { children }
+            <Outlet />
+            {/* { children } */}
           </main>
         </div>
         {/* {switching ? <LoadingModal /> : null} */}
